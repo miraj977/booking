@@ -1,0 +1,322 @@
+
+body {
+  padding-top: 20px;
+  position: relative;
+  min-height: 100%;
+  background-image: url('header.jpg');
+  background-size: 100%;
+  color: white !important;
+}
+
+.dropdown.dropdown-lg .dropdown-menu {
+  margin-top: -1px;
+  padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+  display: flex !important;
+}
+.btn-group .btn {
+  border-radius: 0;
+  margin-left: -1px;
+}
+.btn-group .btn:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+.form-group .form-control:last-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  #adv-search {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .dropdown.dropdown-lg {
+    position: static !important;
+  }
+  .dropdown.dropdown-lg .dropdown-menu {
+    min-width: 500px;
+  }
+}
+
+.btn-warning.btn-md {
+ margin-top: 60px;
+ width: 150px; 
+ box-shadow:2px 4px 1px #888888;
+ padding-top: 10px;
+ padding-bottom: 10px; 
+ font-weight: bold;
+}
+
+#adv-search
+{
+  margin-top: 10px;
+}
+
+.logo{
+  padding-right:5px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block;
+}
+
+#panel, #flip,#panel2, #flip2,#panel3, #flip3 {
+    padding: 5px;
+    text-align: center;
+}
+
+#panel,#panel2,#panel3 {
+    padding: 50px;
+    display: none;
+}
+
+.btna {
+
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  color: rgb(247, 180, 9);
+  padding: 10px 50px 20px;
+  transition: all 0.6s ease-out;
+  background: linear-gradient(270deg, rgb(224, 164, 13), rgb(249, 157, 0), rgba(34,34,34,0), rgba(34,34,34,0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  width: 20%;
+  text-decoration: none;
+  background-color: #8a3c58 !important;
+}
+
+.btna:hover {
+  color: #fff;
+/*border: 1px solid rgba(223,190,106,0);border-radius: 10px;*/
+  color: white;
+  background-position: 99% 50%;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+.btnaa {
+
+  background-color: #8a3c58 !important;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  color: white !important;
+  padding: 10px 50px 20px;
+  transition: all 0.1s ease-out;
+  background: linear-gradient(270deg, rgb(224, 164, 13), rgb(249, 157, 0), rgba(34,34,34,0), rgba(34,34,34,0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  width: 20%;
+  text-decoration: none;
+}
+
+.btnaa:hover {
+/*border: 1px solid rgba(223,190,106,0);border-radius: 10px;*/
+  color: white !important;
+  background-position: 99% 50%;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+a
+{color: orange !important;}
+
+.modal-content
+{
+  background-color: #8a3c58 !important;
+}
+
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.dev
+{
+  font-family: Calligraffitti;
+  color: white !important; 
+  font-size: 18px;
+  text-decoration: none !important;
+  font-weight: bold;
+  
+}
+
+.dev:hover
+{
+  text-decoration: none !important;
+}
+
+.footera {
+  right: 0;
+  bottom: -25px;
+  position: relative;
+  left: 0;
+  padding: 1rem;
+  vertical-align : bottom;
+  background-color: #efefef;
+  text-align: center;
+  padding-left: 70px;
+}
+
+
+
+#iosBlurBg {
+  resize: horizontal;
+  position: relative;
+  /*width: 100%;
+  height: 100vh;*/
+  border-top: 450px solid transparent;
+  border-left: 550px solid rgba(0,0,0,0.04);
+  border-bottom: 450px solid transparent;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  /*box-shadow: 1px 1px 25px #999;*/
+}
+
+#whiteBg {
+  resize: horizontal;
+  position: absolute;
+  top: -410px;
+  right: 0;
+  border-top: 438px solid transparent;
+  border-left: 500px solid rgba(255,255,255,1);
+  border-bottom: 64px solid transparent;
+  border-right: 30px solid transparent;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1));
+}
+
+#bottomEnter{
+  position: absolute;
+  top: 344px;
+  left: 150px;
+  z-index: -2;
+  border-top: 200px solid transparent;
+  border-right: 300px solid #15224a;
+  border-bottom: 150px solid transparent;
+  transform: rotate(-2deg);
+}
+
+#bottomBlurBg{
+  position: absolute;
+  top: 377px;
+  left: 110px;
+  z-index: -1;
+  border-top: 200px solid transparent;
+  border-right: 260px solid rgba(69,138,182,0.4);
+  border-bottom: 120px solid transparent;
+  transform: rotate(10deg);
+}
+
+.enterButton{
+  position: absolute;
+  top: 526px;
+  left: 274px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+}
+
+.text-white{
+  color: #fff;
+}
+
+.enterText{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.loginForm{
+  position: absolute;
+  top: 218px;
+  left: 64px;
+}
+
+.title{
+ font-weight: 300;
+ font-size: 24px;
+ line-height: 1;
+}
+
+.title span{
+  font-weight: 800;
+  /*letter-spacing: 3px;*/
+}
+
+.title hr{
+  width: 150px;
+  border-width: 2px;
+  border-color: #67e2fb; 
+  margin: 0;
+
+}
+
+hr.short{
+  width: 50px;
+  border-width: 2px;
+  border-color: #67e2fb; 
+  float: left;
+  margin: 0;
+
+}
+
+
+/* input focus effects css */
+:focus{outline: none;}
+
+.col-3{float: left; width: 100%; margin-top: 20px; margin-bottom: 0;} 
+.effect-2{margin-top: 15px;font: 15px/24px "Open Sans", sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px; width: 65%;}
+
+.effect-2::placeholder{
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 15px;
+}
+
+.effect-2{border: 0; padding: 7px 0; border-bottom: 1px solid #ccc;}
+
+.forget button{
+  margin-top: 11px;
+  border-radius: 0;
+  color: #aaa;
+  margin-left: 32px;
+  font-weight: 700;
+}
+
